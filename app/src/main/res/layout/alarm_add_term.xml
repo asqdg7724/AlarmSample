@@ -47,9 +47,9 @@
                 android:id="@+id/radio_5min"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
-                android:text="5분"
-                android:layout_marginBottom="10dp"/>
+                android:text="5분" />
 
             <RadioButton
                 android:id="@+id/radio_10min"
@@ -132,6 +132,15 @@
 
 
         </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_term_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/radio_group_repeat"
+            android:layout_alignRight="@+id/radio_group_repeat"
+            android:layout_below="@+id/radio_group_repeat"
+            android:text="취소" />
 
 
     </RelativeLayout>
