@@ -18,6 +18,8 @@
         </activity>
 
         <activity android:name=".alarm_add" android:label="알람 추가"/>
+        <activity android:name=".stopwatch" android:label="스톱워치"/>
+        <activity android:name=".timer" android:label="타이머"/>
     </application>
 
 </manifest>
